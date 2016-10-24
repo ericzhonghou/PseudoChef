@@ -245,6 +245,29 @@ input, select, textarea{
   cursor: pointer;
 }
 
+.parent {
+  position: relative;
+}
+.flat-button-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 1em;
+  width: 25%;
+  height: 75px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #e07367;
+  border: 0;
+  border-bottom: 2px solid #d26357;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #d26357;
+  box-shadow: inset 0 -2px #d26357;
+}
 .words-field {
 	padding-bottom: 30px;
 }
